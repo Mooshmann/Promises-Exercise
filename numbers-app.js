@@ -15,5 +15,5 @@ Promise.all(
         return $.getJSON(`${baseURL}/${favNum}?json`);
     })
 ).then(facts => {
-    facts.forEach(data => $("numbers-area").append(`<p>${data.text}</p>`));
+    facts.forEach(data => $("#numbers-area").append(`<p>${data.text}</p>`));
 });

@@ -1,5 +1,5 @@
 let favNum = 13;
-let baseURL = "http://numbersapi.com";
+let baseURL = "https://numbersapi.com";
 
 $.getJSON(`${baseURL}/${favNum}?json`).then(data => {
     console.log(data);
